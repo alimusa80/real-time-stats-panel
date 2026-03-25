@@ -6,6 +6,8 @@ Use this checklist before publishing `alimusa/real-time-stats-panel`.
 
 - Create repository: `https://github.com/alimusa80/real-time-stats-panel`
 - Push package contents to the repository root
+- Do not push a wrapper folder that contains `real-time-stats-panel/` inside the repo root
+- `README.md` and `composer.json` must be visible at the top level of the GitHub repository
 - Add repository description:
   - `Production-ready real-time dashboard metrics plugin for FilamentPHP`
 - Add website URL:
@@ -68,6 +70,7 @@ composer test
    - version tags
    - license
    - autoload rules
+   - root-level `composer.json`
 6. Configure auto-update webhook if needed.
 
 ## First Stable Tag
