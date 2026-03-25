@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Website
+    url: https://www.alimusa.so/
+    about: Visit Ali Musa's website for package and contact information.
+  - name: GitHub Profile
+    url: https://github.com/alimusa80
+    about: View maintainer profile and related repositories.

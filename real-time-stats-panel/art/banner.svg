@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+    <title id="title">ALIMUSA RealTimeStatsPanel Banner</title>
+    <desc id="desc">Banner artwork for the RealTimeStatsPanel Filament plugin.</desc>
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#08141f"/>
+            <stop offset="50%" stop-color="#10324a"/>
+            <stop offset="100%" stop-color="#0d6b57"/>
+        </linearGradient>
+        <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="640" fill="url(#bg)"/>
+    <circle cx="1080" cy="120" r="180" fill="#42d392" fill-opacity="0.12"/>
+    <circle cx="190" cy="520" r="220" fill="#60a5fa" fill-opacity="0.12"/>
+    <text x="84" y="128" fill="#8de1c3" font-family="Consolas, Menlo, monospace" font-size="28">ALIMUSA / FilamentPHP Plugin</text>
+    <text x="84" y="214" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">RealTimeStatsPanel</text>
+    <text x="84" y="272" fill="#d7e7f5" font-family="Segoe UI, Arial, sans-serif" font-size="28">Production-ready real-time dashboard metrics with Echo, Pusher, and Soketi support.</text>
+    <g transform="translate(720 142)">
+        <rect width="450" height="330" rx="26" fill="url(#card)" stroke="#c8f7e7" stroke-opacity="0.25"/>
+        <rect x="28" y="28" width="174" height="118" rx="18" fill="#0c1f2f" stroke="#3dd598" stroke-opacity="0.35"/>
+        <rect x="220" y="28" width="202" height="118" rx="18" fill="#0c1f2f" stroke="#4ea4ff" stroke-opacity="0.35"/>
+        <rect x="28" y="164" width="174" height="138" rx="18" fill="#0c1f2f" stroke="#f7c948" stroke-opacity="0.35"/>
+        <rect x="220" y="164" width="202" height="138" rx="18" fill="#0c1f2f" stroke="#ff7b72" stroke-opacity="0.35"/>
+        <text x="50" y="64" fill="#9fb7cb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Active Users</text>
+        <text x="50" y="112" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">124</text>
+        <polyline points="50,132 82,118 114,124 146,104 178,88" fill="none" stroke="#3dd598" stroke-width="4" stroke-linecap="round"/>
+        <text x="242" y="64" fill="#9fb7cb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Requests / Second</text>
+        <text x="242" y="112" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">18.72</text>
+        <polyline points="242,132 278,120 314,110 350,116 386,92" fill="none" stroke="#4ea4ff" stroke-width="4" stroke-linecap="round"/>
+        <text x="50" y="200" fill="#9fb7cb" font-family="Segoe UI, Arial, sans-serif" font-size="16">CPU Usage</text>
+        <text x="50" y="248" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">63.4%</text>
+        <polyline points="50,286 78,252 106,266 134,228 162,240 190,206" fill="none" stroke="#f7c948" stroke-width="4" stroke-linecap="round"/>
+        <text x="242" y="200" fill="#9fb7cb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Memory Usage</text>
+        <text x="242" y="248" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">248 MB</text>
+        <polyline points="242,286 274,274 306,270 338,248 370,240 402,228" fill="none" stroke="#ff7b72" stroke-width="4" stroke-linecap="round"/>
+    </g>
+</svg>

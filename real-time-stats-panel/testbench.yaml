@@ -1,0 +1,2 @@
+providers:
+  - Alimusa\RealTimeStatsPanel\RealTimeStatsPanelServiceProvider

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+    <title id="title">RealTimeStatsPanel Widget Preview</title>
+    <desc id="desc">Preview illustration of the RealTimeStatsPanel widget cards.</desc>
+    <rect width="1280" height="720" fill="#f3f6fb"/>
+    <rect x="60" y="48" width="1160" height="624" rx="28" fill="#ffffff" stroke="#d9e2ec"/>
+    <text x="110" y="118" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Real-time stats</text>
+    <text x="110" y="156" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="20">WebSocket-fed operational telemetry for the active Filament panel.</text>
+    <rect x="1010" y="96" width="116" height="36" rx="18" fill="#dcfce7"/>
+    <circle cx="1038" cy="114" r="7" fill="#22c55e"/>
+    <text x="1056" y="120" fill="#166534" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Live</text>
+    <g transform="translate(110 206)">
+        <g>
+            <rect width="240" height="198" rx="22" fill="#ffffff" stroke="#d9e2ec"/>
+            <text x="24" y="38" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">Active users</text>
+            <text x="24" y="96" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">124</text>
+            <polyline points="24,156 58,146 92,150 126,134 160,120 194,112" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(272 0)">
+            <rect width="240" height="198" rx="22" fill="#ffffff" stroke="#d9e2ec"/>
+            <text x="24" y="38" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">Requests / second</text>
+            <text x="24" y="96" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">18.72</text>
+            <polyline points="24,156 58,150 92,140 126,128 160,132 194,110" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(544 0)">
+            <rect width="240" height="198" rx="22" fill="#ffffff" stroke="#d9e2ec"/>
+            <text x="24" y="38" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">CPU usage</text>
+            <text x="24" y="96" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">63.4%</text>
+            <polyline points="24,156 58,126 92,140 126,104 160,114 194,88" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(816 0)">
+            <rect width="240" height="198" rx="22" fill="#ffffff" stroke="#d9e2ec"/>
+            <text x="24" y="38" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="18">Memory usage</text>
+            <text x="24" y="96" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">248 MB</text>
+            <polyline points="24,156 58,148 92,144 126,126 160,118 194,110" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+        </g>
+    </g>
+</svg>
